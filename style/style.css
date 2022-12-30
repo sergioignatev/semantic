@@ -1,0 +1,195 @@
+#switch {
+  display: none;
+}
+
+.nav-div {
+  padding: 20px;
+}
+
+.nav-div:hover {
+  background: grey;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 250px 80%;
+  background-color: azure;
+  min-height: 100vh;
+}
+
+aside {
+  background: lemonchiffon;
+  padding-left: 20px;
+  padding: 20px;
+}
+
+aside img {
+  max-width: 100%;
+}
+
+figure {
+  border: 1px solid greenyellow;
+  width: calc(100% + 20px);
+  margin-left: -20px;
+}
+
+#right {
+  border: 1px solid grey;
+  padding: 30px;
+}
+
+footer {
+  padding-left: 20%;
+  min-height: 50px;
+  background: grey;
+  display: flex;
+  align-items: center;
+}
+
+th:not(:first-child) {
+  padding-left: 28px;
+}
+
+td:not(:first-child) {
+  padding-left: 28px;
+}
+
+td {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  border-collapse: collapse;
+}
+
+tr {
+  padding-top: 28px;
+}
+
+th {
+  text-align: left;
+  font-weight: 600;
+}
+
+table {
+  max-width: 100%;
+  background: white;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.editgreen {
+  width: 149px;
+  height: 36px;
+  background: rgb(85, 201, 123);
+  color: white;
+  font-size: 13px;
+  border: none;
+}
+
+.editgrey {
+  width: 149px;
+  height: 36px;
+  background: rgb(177, 177, 177);
+  color: white;
+  font-size: 13px;
+  border: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+#show {
+  display: flex;
+}
+
+header {
+  margin: 50px;
+}
+
+p {
+  padding-left: 20px;
+  color: green;
+}
+
+progress {
+  max-width: 100%;
+}
+
+details {
+  color: black;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  background: green;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+aside {
+  background: lemonchiffon;
+  padding-left: 20px;
+  padding: 20px;
+  color: red;
+  font-size: 17px;
+  font-weight: bold;
+  border: 1px solid blue;
+}
+
+@media (max-width: 1000px) {
+  main {
+    grid-template-columns: 30% 70%;
+  }
+}
+@media (max-width: 800px) {
+  main {
+    grid-template-columns: auto;
+    color: green;
+  }
+  figure {
+    margin-left: 0px;
+    width: 100%;
+  }
+  tr, td, th, table {
+    padding: 8px;
+    width: 100%;
+    display: block;
+  }
+  aside {
+    padding-bottom: 50px;
+  }
+  #show {
+    display: none;
+    position: relative;
+  }
+  #switch {
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: red;
+  }
+  nav div {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  figure {
+    margin-left: 0px;
+  }
+  nav {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */

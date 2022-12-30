@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+#show {
+  display: flex;
+}
+
+header {
+  margin: 50px;
+}
+
+p {
+  padding-left: 20px;
+  color: green;
+}
+
+progress {
+  max-width: 100%;
+}
+
+details {
+  color: black;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  background: green;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}/*# sourceMappingURL=common.css.map */

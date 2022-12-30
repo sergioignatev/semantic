@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style/style.css">
+<link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg">
+<title>Sergio Ignatev</title>
+</head>
+<body>
+   <h1>Repeat semantic on a link in about</h1>
+   <div id="switch">|||</div>
+    <nav>
+        
+        <div id="show">
+<div class="nav-div"><a href="#home">Home</a></div>
+<div class="nav-div"><a href="#">About</a></div>
+<div class="nav-div"><a href="#">Exemples</a></div>
+<div class="nav-div"><a href="#">Contacts</a></div>
+</div>    
+</nav>
+    
+<main>
+<aside >
+   
+    <details>
+        <summary>Article</summary>
+        &lt;article&gt; tag: The &lt;article&gt; tag is a self-completed tag, this can be used for any of those reasons, where &lt;section&gt; tag is required plus the &lt;article&gt; tag place the content independently. Article tag can be used to place any social post, magazine article, blogs, list of related contents, any independent content.
+      </details>
+
+      <details>
+        <summary>Mark</summary>
+     This tag is used to <mark>mark</mark> a part of the content.
+      </details>
+
+      <details>
+      <summary>Section</summary>
+      <html> This tag is used to split a page into sections like Introduction, Contact Information, Details, etc and each of these sections can be in a different
+
+      tag. The
+      tag is introduced to wrap-up the things in a particular section. The
+      tag divides the content into sections and subsections. The section tag is used when requirements of two headers or footers or any other section of documents needed. Section tag grouped the generic block of related content.
+    </details>
+    <details>
+        <summary>Progress</summary>
+        <h1>The progress element</h1>
+
+        <label for="file">Downloading progress:</label>
+        <progress id="file" value="32" max="100"> 32% </progress>
+    </details>
+   
+    <details>
+        <summary>Figure/Figcaption</summary>
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/The_Growth_of_Roman_Power_in_Italy.jpg/375px-The_Growth_of_Roman_Power_in_Italy.jpg">
+<figcaption><em>Roman republic on the brinc of the allies war</em></figcaption>
+
+</figure>
+   </details>
+    
+<canvas id="canvas" width="230px" height="230px"
+style="background-color:#333">
+</canvas>
+
+<?php
+echo "My first PHP script!";
+?> 
+
+</aside>
+
+<section id="right">
+ <article id ='about'>
+    <header>
+<h2>What is semantic html?</h2>
+<h3>And why to use it</h3>
+<h4>These elements are within the <strong>head</strong> tag</h4>
+    </header>
+<p>A <abbr title="semantic html">semantic element</abbr> clearly describes its meaning to both the browser and the developer.</p>
+<p>Examples of non-semantic elements: <strong>div</strong> and <strong>span</strong> - Tells nothing about its content.<br/>
+
+    Examples of semantic elements: <strong>form</strong>, <strong>table</strong>, and <strong>article</strong> - Clearly defines its content.    <a target="_blank" href="https://www.w3schools.com/html/html5_semantic_elements.asp">w3schools tutorial</a></p>
+
+ </article>
+
+ <article id ='bootstrap'>
+    <header>
+<h2>What is <em>bootstrap</em>?</h2>
+<h3>And why to use it</h3>
+<h4>These elements are within the <strong>head</strong> tag</h4>
+    </header>
+<p>A semantic element clearly describes its meaning to both the browser and the developer.</p>
+<p >Examples of non-semantic elements: <strong>div</strong> and <strong>span</strong> - Tells nothing about its content.<br/>
+
+    Examples of semantic elements: <strong>form</strong>, <strong>table</strong>, and <strong>article</strong> - Clearly defines its content.    <a target="_blank" href="https://www.w3schools.com/html/html5_semantic_elements.asp">w3schools tutorial</a></p>
+
+ </article>
+ <div>
+ <h1>Description Lists</h1>    
+  <p>The <code>dl</code> element indicates a <kbd>description list:</kbd></p>
+  <dl>
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+  </dl>     
+</div>
+
+<table >
+<tr>
+<th>№</th>
+<th>Название</th>
+<th>Адрес</th>
+<th>Действие</th>
+</tr>
+<tr>
+    <td>12345</td>
+    <td>Дипломная работа</td>
+    <td>http://www.work5.ru/services</td>
+    <td>
+        <button class="editgreen">Редактировать</button>
+        <button class="editgrey">Редактировать</button>
+        
+    </td>
+  
+    <tr>
+
+    <td >12345</td>
+    <td>Дипломная работа</td>
+    <td>http://www.work5.ru/services</td>
+    <td>
+        <button class="editgreen">Редактировать</button>
+        <button class="editgrey">Редактировать</button>
+    </td>
+    </tr>
+</tr>
+
+</table>
+</section>
+
+</main>
+<footer>
+    <p>This site is created by <em><a href="#">Sergio ignatev</a></em></p>
+</footer>
+</body>
+<script src="scripts.js"></script>
+</html>
